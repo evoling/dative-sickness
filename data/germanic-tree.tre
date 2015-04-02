@@ -1,0 +1,44 @@
+#NEXUS
+begin taxa;
+	dimensions ntax=16;
+	taxlabels
+	Gothic
+	Old_Norse
+	Faroese
+	Icelandic
+	Old_Swedish
+	Swedish
+	Norwegian
+	Old_High_German
+	Middle_High_German
+	German
+	Old_Saxon
+	Middle_Dutch
+	Dutch
+	Old_English
+	Middle_English
+	English
+;
+end;
+
+begin trees;
+	TRANSLATE
+		1	Gothic,
+		2	Old_Norse,
+		3	Faroese,
+		4	Icelandic,
+		5	Norwegian,
+		6	Old_Swedish,
+		7	Swedish,
+		8	Old_High_German,
+		9	Middle_High_German,
+		10	German,
+		11	Old_Saxon,
+		12	Middle_Dutch,
+		13	Dutch,
+		14	Old_English,
+		15	Middle_English,
+		16	English
+	;
+	tree * Corrected_tree = [&R] (1:850,(((2:50,(3:750,(4:700,5:700):50):50):300,(6:50,7:650):450):1000,(((8:50,(9:50,10:750):400):350,(11:100,(12:50,13:700):450):350):350,(14:50,(15:50,16:700):400):750):250):350);
+end;
