@@ -1,0 +1,4 @@
+.backup/
+.ipynb_checkpoints/
+build/
+data/
