@@ -4,11 +4,13 @@ Supplementary materials to "Dative Sickness: A Phylogenetic Analysis of Argument
 
 If you just want to *read* these materials, go to http://evoling.github.io/dative-sickness/
 
-Otherwise if you with to *replicate* this study, checkout this repository and run `ipython notebook dative-sickness.ipynb`
+Otherwise if you with to *replicate* this study, clone this repository from git and run `jupyter notebook dative-sickness.ipynb`
 
-The software requirements to run the ipython notebook are:
+The software requirements to run the jupyter notebook are:
 
 - Python 2.7
-- ipython and its dependencies
-- [BayesTraits](http://www.evolution.rdg.ac.uk/BayesTraits.html)
+- the `rpy2` python library
+- [Jupyter](http://jupyter.org/)
+- [BayesTraits](http://www.evolution.rdg.ac.uk/BayesTraits.html) (on your PATH, with the binary called `BayesTraits`)
 - [R](http://www.r-project.org/)
+- the `ape` and `RColorBrewer` R libraries
