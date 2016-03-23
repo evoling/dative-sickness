@@ -8,9 +8,9 @@ Otherwise if you with to *replicate* this study, clone this repository from git 
 
 The software requirements to run the jupyter notebook are:
 
-- Python 2.7
+- Python 3
 - the `rpy2` python library
 - [Jupyter](http://jupyter.org/)
 - [BayesTraits](http://www.evolution.rdg.ac.uk/BayesTraits.html) (on your PATH, with the binary called `BayesTraits`)
 - [R](http://www.r-project.org/)
-- the `ape` and `RColorBrewer` R libraries
+- the `ape` R libraries
