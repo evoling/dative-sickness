@@ -14,3 +14,5 @@ The software requirements to run the jupyter notebook are:
 - [BayesTraits](http://www.evolution.rdg.ac.uk/BayesTraits.html) (on your PATH, with the binary called `BayesTraits`)
 - [R](http://www.r-project.org/)
 - the `ape` R libraries
+
+These supplementary materials are permanently archived on FigShare https://doi.org/10.6084/m9.figshare.4625941.v1
